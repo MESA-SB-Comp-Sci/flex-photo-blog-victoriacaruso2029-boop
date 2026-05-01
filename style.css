@@ -77,8 +77,8 @@
 .nav {
   background-color: #0F6E56;
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
-  justify-content: space-between;
   padding: 10px 24px;
   gap: 20px;
 
@@ -107,7 +107,7 @@
   display: flex;
   gap: 10px;
   color: white;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center; 
 }
 
@@ -137,10 +137,12 @@
 
 .main {
   /* add here */
-  flex-direction: column;
+  flex-direction: row;
+  display: flex;
   gap: 16px;
   padding: 20px;
   background-color: #f1efe8;
+  flex:1;
 }
 
 
@@ -160,7 +162,7 @@
   flex-shrink: 0;
   border: 0.5px solid #D3D1C7;
   display: flex;
-  flex-direction: row;  
+  flex-direction: column;  
   gap: 10px;
 }
 
@@ -210,7 +212,7 @@
 .images {
   display: flex;
   flex: 1;
-  flex-direction: row; 
+  flex-direction: column; 
   gap: 12px;
 }
 
@@ -231,7 +233,7 @@
   font-size: 13px;
   color: #5F5E5A;
   text-align: center;
-  flex: 0;  
+  flex: 1;
 }
 
 
@@ -248,7 +250,7 @@
   background-color: #1a1a2e;
   padding: 12px 24px;
   display: flex;
-  justify-content: center;   
+  justify-content: flex-start   
   gap: 20px;
 }
 
